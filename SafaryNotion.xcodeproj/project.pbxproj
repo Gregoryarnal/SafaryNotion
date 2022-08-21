@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66C6E5C28B2AAAC00C9C401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E5B28B2AAAC00C9C401 /* AppDelegate.swift */; };
+		C66C6E6028B2AAAC00C9C401 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E5E28B2AAAC00C9C401 /* Main.html */; };
+		C66C6E6228B2AAAC00C9C401 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E6128B2AAAC00C9C401 /* Icon.png */; };
+		C66C6E6428B2AAAC00C9C401 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E6328B2AAAC00C9C401 /* Style.css */; };
+		C66C6E6628B2AAAC00C9C401 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E6528B2AAAC00C9C401 /* Script.js */; };
+		C66C6E6828B2AAAC00C9C401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E6728B2AAAC00C9C401 /* ViewController.swift */; };
+		C66C6E6B28B2AAAC00C9C401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E6928B2AAAC00C9C401 /* Main.storyboard */; };
+		C66C6E6D28B2AAB100C9C401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E6C28B2AAB100C9C401 /* Assets.xcassets */; };
+		C66C6E7928B2AAB100C9C401 /* SafaryNotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E7828B2AAB100C9C401 /* SafaryNotionTests.swift */; };
+		C66C6E8328B2AAB100C9C401 /* SafaryNotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E8228B2AAB100C9C401 /* SafaryNotionUITests.swift */; };
+		C66C6E8528B2AAB100C9C401 /* SafaryNotionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E8428B2AAB100C9C401 /* SafaryNotionUITestsLaunchTests.swift */; };
+		C66C6E8B28B2AAB100C9C401 /* SafaryNotion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C66C6E8A28B2AAB100C9C401 /* SafaryNotion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C66C6E9028B2AAB100C9C401 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C6E8F28B2AAB100C9C401 /* SafariWebExtensionHandler.swift */; };
+		C66C6E9328B2AAB100C9C401 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9228B2AAB100C9C401 /* _locales */; };
+		C66C6E9528B2AAB100C9C401 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9428B2AAB100C9C401 /* images */; };
+		C66C6E9728B2AAB100C9C401 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9628B2AAB100C9C401 /* manifest.json */; };
+		C66C6E9928B2AAB100C9C401 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9828B2AAB100C9C401 /* background.js */; };
+		C66C6E9B28B2AAB100C9C401 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9A28B2AAB100C9C401 /* content.js */; };
+		C66C6E9D28B2AAB100C9C401 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9C28B2AAB100C9C401 /* popup.html */; };
+		C66C6E9F28B2AAB100C9C401 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C66C6E9E28B2AAB100C9C401 /* popup.css */; };
+		C66C6EA128B2AAB100C9C401 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C66C6EA028B2AAB100C9C401 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C66C6E7528B2AAB100C9C401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66C6E5028B2AAAC00C9C401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66C6E5728B2AAAC00C9C401;
+			remoteInfo = SafaryNotion;
+		};
+		C66C6E7F28B2AAB100C9C401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66C6E5028B2AAAC00C9C401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66C6E5728B2AAAC00C9C401;
+			remoteInfo = SafaryNotion;
+		};
+		C66C6E8C28B2AAB100C9C401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66C6E5028B2AAAC00C9C401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66C6E8928B2AAB100C9C401;
+			remoteInfo = "SafaryNotion Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C66C6EA928B2AAB100C9C401 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C66C6E8B28B2AAB100C9C401 /* SafaryNotion Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C66C6E5828B2AAAC00C9C401 /* SafaryNotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafaryNotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C6E5B28B2AAAC00C9C401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C66C6E5F28B2AAAC00C9C401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C66C6E6128B2AAAC00C9C401 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C66C6E6328B2AAAC00C9C401 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C66C6E6528B2AAAC00C9C401 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C66C6E6728B2AAAC00C9C401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C66C6E6A28B2AAAC00C9C401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C66C6E6C28B2AAB100C9C401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C66C6E6E28B2AAB100C9C401 /* SafaryNotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafaryNotion.entitlements; sourceTree = "<group>"; };
+		C66C6E6F28B2AAB100C9C401 /* SafaryNotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafaryNotion.entitlements; sourceTree = "<group>"; };
+		C66C6E7428B2AAB100C9C401 /* SafaryNotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafaryNotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C6E7828B2AAB100C9C401 /* SafaryNotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafaryNotionTests.swift; sourceTree = "<group>"; };
+		C66C6E7E28B2AAB100C9C401 /* SafaryNotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafaryNotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C6E8228B2AAB100C9C401 /* SafaryNotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafaryNotionUITests.swift; sourceTree = "<group>"; };
+		C66C6E8428B2AAB100C9C401 /* SafaryNotionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafaryNotionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C66C6E8A28B2AAB100C9C401 /* SafaryNotion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafaryNotion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C6E8F28B2AAB100C9C401 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C66C6E9228B2AAB100C9C401 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C66C6E9428B2AAB100C9C401 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C66C6E9628B2AAB100C9C401 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C66C6E9828B2AAB100C9C401 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C66C6E9A28B2AAB100C9C401 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C66C6E9C28B2AAB100C9C401 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C66C6E9E28B2AAB100C9C401 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		C66C6EA028B2AAB100C9C401 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C66C6EA228B2AAB100C9C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66C6EA328B2AAB100C9C401 /* SafaryNotion_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafaryNotion_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66C6E5528B2AAAC00C9C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7128B2AAB100C9C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7B28B2AAB100C9C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E8728B2AAB100C9C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66C6E4F28B2AAAC00C9C401 = {
+			isa = PBXGroup;
+			children = (
+				C66C6E5A28B2AAAC00C9C401 /* SafaryNotion */,
+				C66C6E7728B2AAB100C9C401 /* SafaryNotionTests */,
+				C66C6E8128B2AAB100C9C401 /* SafaryNotionUITests */,
+				C66C6E8E28B2AAB100C9C401 /* SafaryNotion Extension */,
+				C66C6E5928B2AAAC00C9C401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66C6E5928B2AAAC00C9C401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E5828B2AAAC00C9C401 /* SafaryNotion.app */,
+				C66C6E7428B2AAB100C9C401 /* SafaryNotionTests.xctest */,
+				C66C6E7E28B2AAB100C9C401 /* SafaryNotionUITests.xctest */,
+				C66C6E8A28B2AAB100C9C401 /* SafaryNotion Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66C6E5A28B2AAAC00C9C401 /* SafaryNotion */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E5B28B2AAAC00C9C401 /* AppDelegate.swift */,
+				C66C6E6728B2AAAC00C9C401 /* ViewController.swift */,
+				C66C6E6928B2AAAC00C9C401 /* Main.storyboard */,
+				C66C6E6C28B2AAB100C9C401 /* Assets.xcassets */,
+				C66C6E6E28B2AAB100C9C401 /* SafaryNotion.entitlements */,
+				C66C6E6F28B2AAB100C9C401 /* SafaryNotion.entitlements */,
+				C66C6E5D28B2AAAC00C9C401 /* Resources */,
+			);
+			path = SafaryNotion;
+			sourceTree = "<group>";
+		};
+		C66C6E5D28B2AAAC00C9C401 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E5E28B2AAAC00C9C401 /* Main.html */,
+				C66C6E6128B2AAAC00C9C401 /* Icon.png */,
+				C66C6E6328B2AAAC00C9C401 /* Style.css */,
+				C66C6E6528B2AAAC00C9C401 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C66C6E7728B2AAB100C9C401 /* SafaryNotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E7828B2AAB100C9C401 /* SafaryNotionTests.swift */,
+			);
+			path = SafaryNotionTests;
+			sourceTree = "<group>";
+		};
+		C66C6E8128B2AAB100C9C401 /* SafaryNotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E8228B2AAB100C9C401 /* SafaryNotionUITests.swift */,
+				C66C6E8428B2AAB100C9C401 /* SafaryNotionUITestsLaunchTests.swift */,
+			);
+			path = SafaryNotionUITests;
+			sourceTree = "<group>";
+		};
+		C66C6E8E28B2AAB100C9C401 /* SafaryNotion Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E8F28B2AAB100C9C401 /* SafariWebExtensionHandler.swift */,
+				C66C6EA228B2AAB100C9C401 /* Info.plist */,
+				C66C6EA328B2AAB100C9C401 /* SafaryNotion_Extension.entitlements */,
+				C66C6E9128B2AAB100C9C401 /* Resources */,
+			);
+			path = "SafaryNotion Extension";
+			sourceTree = "<group>";
+		};
+		C66C6E9128B2AAB100C9C401 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C66C6E9228B2AAB100C9C401 /* _locales */,
+				C66C6E9428B2AAB100C9C401 /* images */,
+				C66C6E9628B2AAB100C9C401 /* manifest.json */,
+				C66C6E9828B2AAB100C9C401 /* background.js */,
+				C66C6E9A28B2AAB100C9C401 /* content.js */,
+				C66C6E9C28B2AAB100C9C401 /* popup.html */,
+				C66C6E9E28B2AAB100C9C401 /* popup.css */,
+				C66C6EA028B2AAB100C9C401 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66C6E5728B2AAAC00C9C401 /* SafaryNotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66C6EAA28B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotion" */;
+			buildPhases = (
+				C66C6E5428B2AAAC00C9C401 /* Sources */,
+				C66C6E5528B2AAAC00C9C401 /* Frameworks */,
+				C66C6E5628B2AAAC00C9C401 /* Resources */,
+				C66C6EA928B2AAB100C9C401 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66C6E8D28B2AAB100C9C401 /* PBXTargetDependency */,
+			);
+			name = SafaryNotion;
+			productName = SafaryNotion;
+			productReference = C66C6E5828B2AAAC00C9C401 /* SafaryNotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C66C6E7328B2AAB100C9C401 /* SafaryNotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66C6EAD28B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotionTests" */;
+			buildPhases = (
+				C66C6E7028B2AAB100C9C401 /* Sources */,
+				C66C6E7128B2AAB100C9C401 /* Frameworks */,
+				C66C6E7228B2AAB100C9C401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66C6E7628B2AAB100C9C401 /* PBXTargetDependency */,
+			);
+			name = SafaryNotionTests;
+			productName = SafaryNotionTests;
+			productReference = C66C6E7428B2AAB100C9C401 /* SafaryNotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C66C6E7D28B2AAB100C9C401 /* SafaryNotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66C6EB028B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotionUITests" */;
+			buildPhases = (
+				C66C6E7A28B2AAB100C9C401 /* Sources */,
+				C66C6E7B28B2AAB100C9C401 /* Frameworks */,
+				C66C6E7C28B2AAB100C9C401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66C6E8028B2AAB100C9C401 /* PBXTargetDependency */,
+			);
+			name = SafaryNotionUITests;
+			productName = SafaryNotionUITests;
+			productReference = C66C6E7E28B2AAB100C9C401 /* SafaryNotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C66C6E8928B2AAB100C9C401 /* SafaryNotion Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66C6EA628B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotion Extension" */;
+			buildPhases = (
+				C66C6E8628B2AAB100C9C401 /* Sources */,
+				C66C6E8728B2AAB100C9C401 /* Frameworks */,
+				C66C6E8828B2AAB100C9C401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafaryNotion Extension";
+			productName = "SafaryNotion Extension";
+			productReference = C66C6E8A28B2AAB100C9C401 /* SafaryNotion Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66C6E5028B2AAAC00C9C401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C66C6E5728B2AAAC00C9C401 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C66C6E7328B2AAB100C9C401 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C66C6E5728B2AAAC00C9C401;
+					};
+					C66C6E7D28B2AAB100C9C401 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C66C6E5728B2AAAC00C9C401;
+					};
+					C66C6E8928B2AAB100C9C401 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C66C6E5328B2AAAC00C9C401 /* Build configuration list for PBXProject "SafaryNotion" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C66C6E4F28B2AAAC00C9C401;
+			productRefGroup = C66C6E5928B2AAAC00C9C401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66C6E5728B2AAAC00C9C401 /* SafaryNotion */,
+				C66C6E7328B2AAB100C9C401 /* SafaryNotionTests */,
+				C66C6E7D28B2AAB100C9C401 /* SafaryNotionUITests */,
+				C66C6E8928B2AAB100C9C401 /* SafaryNotion Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66C6E5628B2AAAC00C9C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E6228B2AAAC00C9C401 /* Icon.png in Resources */,
+				C66C6E6B28B2AAAC00C9C401 /* Main.storyboard in Resources */,
+				C66C6E6628B2AAAC00C9C401 /* Script.js in Resources */,
+				C66C6E6028B2AAAC00C9C401 /* Main.html in Resources */,
+				C66C6E6D28B2AAB100C9C401 /* Assets.xcassets in Resources */,
+				C66C6E6428B2AAAC00C9C401 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7228B2AAB100C9C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7C28B2AAB100C9C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E8828B2AAB100C9C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E9928B2AAB100C9C401 /* background.js in Resources */,
+				C66C6E9F28B2AAB100C9C401 /* popup.css in Resources */,
+				C66C6E9D28B2AAB100C9C401 /* popup.html in Resources */,
+				C66C6E9528B2AAB100C9C401 /* images in Resources */,
+				C66C6E9728B2AAB100C9C401 /* manifest.json in Resources */,
+				C66C6E9328B2AAB100C9C401 /* _locales in Resources */,
+				C66C6E9B28B2AAB100C9C401 /* content.js in Resources */,
+				C66C6EA128B2AAB100C9C401 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66C6E5428B2AAAC00C9C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E6828B2AAAC00C9C401 /* ViewController.swift in Sources */,
+				C66C6E5C28B2AAAC00C9C401 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7028B2AAB100C9C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E7928B2AAB100C9C401 /* SafaryNotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E7A28B2AAB100C9C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E8328B2AAB100C9C401 /* SafaryNotionUITests.swift in Sources */,
+				C66C6E8528B2AAB100C9C401 /* SafaryNotionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C6E8628B2AAB100C9C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C6E9028B2AAB100C9C401 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66C6E7628B2AAB100C9C401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66C6E5728B2AAAC00C9C401 /* SafaryNotion */;
+			targetProxy = C66C6E7528B2AAB100C9C401 /* PBXContainerItemProxy */;
+		};
+		C66C6E8028B2AAB100C9C401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66C6E5728B2AAAC00C9C401 /* SafaryNotion */;
+			targetProxy = C66C6E7F28B2AAB100C9C401 /* PBXContainerItemProxy */;
+		};
+		C66C6E8D28B2AAB100C9C401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66C6E8928B2AAB100C9C401 /* SafaryNotion Extension */;
+			targetProxy = C66C6E8C28B2AAB100C9C401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C66C6E5E28B2AAAC00C9C401 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66C6E5F28B2AAAC00C9C401 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C66C6E6928B2AAAC00C9C401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66C6E6A28B2AAAC00C9C401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66C6EA428B2AAB100C9C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C66C6EA528B2AAB100C9C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C66C6EA728B2AAB100C9C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafaryNotion Extension/SafaryNotion_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafaryNotion Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafaryNotion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotion.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C66C6EA828B2AAB100C9C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafaryNotion Extension/SafaryNotion_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafaryNotion Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafaryNotion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotion.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C66C6EAB28B2AAB100C9C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafaryNotion/SafaryNotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SafaryNotion;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C66C6EAC28B2AAB100C9C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafaryNotion/SafaryNotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SafaryNotion;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C66C6EAE28B2AAB100C9C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafaryNotion.app/Contents/MacOS/SafaryNotion";
+			};
+			name = Debug;
+		};
+		C66C6EAF28B2AAB100C9C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafaryNotion.app/Contents/MacOS/SafaryNotion";
+			};
+			name = Release;
+		};
+		C66C6EB128B2AAB100C9C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SafaryNotion;
+			};
+			name = Debug;
+		};
+		C66C6EB228B2AAB100C9C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6XKDMNY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnalg.SafaryNotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SafaryNotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66C6E5328B2AAAC00C9C401 /* Build configuration list for PBXProject "SafaryNotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C6EA428B2AAB100C9C401 /* Debug */,
+				C66C6EA528B2AAB100C9C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66C6EA628B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotion Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C6EA728B2AAB100C9C401 /* Debug */,
+				C66C6EA828B2AAB100C9C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66C6EAA28B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C6EAB28B2AAB100C9C401 /* Debug */,
+				C66C6EAC28B2AAB100C9C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66C6EAD28B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C6EAE28B2AAB100C9C401 /* Debug */,
+				C66C6EAF28B2AAB100C9C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66C6EB028B2AAB100C9C401 /* Build configuration list for PBXNativeTarget "SafaryNotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66C6EB128B2AAB100C9C401 /* Debug */,
+				C66C6EB228B2AAB100C9C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66C6E5028B2AAAC00C9C401 /* Project object */;
+}
